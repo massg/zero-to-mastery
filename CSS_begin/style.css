@@ -1,0 +1,55 @@
+/* Syntax of CSS
+
+Selector {
+  Propert : value ;
+}
+ */
+ body{
+   background-image: url(as.jpg);
+   background-size: cover;
+ }
+h2, p{
+  color: #AA4139;
+  text-align: center;
+  border: 5px dashed rgba(2,16,70,0.5);
+  /* in rgba, a is use for transpanrecy and values lies between 0 nad 1  */
+  cursor: pointer;
+}
+
+p{
+  color: pink;
+}
+p{
+  color: white;
+}
+p{
+  text-decoration: overline;
+  text-transform: uppercase;
+  line-height: 50px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 150%
+
+}
+img{
+  float: left;
+}
+/* cascade effect of css turns p to white "ORDER MATTERS" */
+li{
+  list-style: none;
+  display: inline-block;
+}
+footer{
+  clear: both;
+  text-align: center;
+}
+.diff{
+  border: 5px dashed grey;
+}
+.sty{
+  color: black;
+}
+/* id can only use once */
+#idi{
+  background: rgba(255,0,255,0.4);
+}
