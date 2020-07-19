@@ -14,5 +14,10 @@ setAttribute
 ##Changing Styles
 style.{property} // ok
 
-className
-classList
+className //best
+classList // best
+
+inneHTML
+
+parentElement
+children
